@@ -53,21 +53,21 @@ En el ejemplo que se muestra en la figura 1, la clase LIBRARY encapsula la suma 
 
 También podríamos identificar todas las operaciones y atributos relacionados con elementos individuales, como Print_Item, Delete_Item, etc.
 
-![figura1]()
+![figura1](https://github.com/valentinatobo/Anti-Patrones/blob/master/img/figura1.PNG)
 
-![figura2]()
+![figura2](https://github.com/valentinatobo/Anti-Patrones/blob/master/img/Figura2.PNG)
 
 2. El segundo paso es buscar "hogares naturales" para estas colecciones de funcionalidad basadas en contratos y luego migrarlas allí. En este ejemplo, recopilamos operaciones relacionadas con catálogos y las migramos de la clase LIBRARY y las trasladamos a la clase CATALOG.
 
 Hacemos lo mismo con las operaciones y atributos relacionados con los artículos, moviéndolos a la clase ITEM. Esto simplifica la clase LIBRARY y hace que las clases ITEM y CATALOG sean más que simples tablas de datos encapsulados. El resultado es un mejor diseño orientado a objetos.
 
-![figura3]()
+![figura3](https://github.com/valentinatobo/Anti-Patrones/blob/master/img/figura1.PNG)
 
 3. El tercer paso es eliminar todas las asociaciones indirectas "acopladas a distancia" o redundantes. En el ejemplo, la clase ITEM está inicialmente acoplada de forma remota a la clase LIBRARY en que cada elemento realmente pertenece a un CATALOG, que a su vez pertenece a una LIBRARY.
 
 4. A continuación, cuando sea apropiado, migramos asociados a clases derivadas a una clase base común. En el ejemplo, una vez que se ha eliminado el acoplamiento lejano entre las clases LIBRARY y ITEM, debemos migrar los ITEM a los CATALOG, como se muestra en la figura 4.
 
-![figura4]()
+![figura4](https://github.com/valentinatobo/Anti-Patrones/blob/master/img/figura4.PNG)
 
 5. Finalmente, eliminamos todas las asociaciones transitorias, reemplazándolas según corresponda con especificadores de tipo para atributos y argumentos de operaciones.
 

@@ -14,7 +14,7 @@ apareciendo en los proyectos de software.
 
 Como  se  muestra  en  la  Figura,  patrones  y antipatrones están relacionados de tal forma que un  patrón  puede evolucionar  hasta  convertirse en una solución de antipatrón. Cuando éste es el caso,  se dice  que estamos  en presencia  de un proceso de refactoring.
 
-![relacionpatrones]()
+![relacionpatrones](https://github.com/valentinatobo/Anti-Patrones/blob/master/img/relacion.PNG)
 
 ## Puntos de Vista
 
@@ -37,7 +37,7 @@ software.
 Tate (2002) propone un proceso de seis pasos para el estudio de
 antipatrones (ver Figura):
 
-![Imagensolantipatron]()
+![Imagensolantipatron](https://github.com/valentinatobo/Anti-Patrones/blob/master/img/antipatron.PNG)
 
 1. Encontrar el problema: una falla en el comportamiento, un error en el
 diseño, etc.
@@ -60,13 +60,13 @@ posible prevenirlo.
 
 ## Algunos Anti-Patrones
 
-* [Golden Hammer :hammer:]()
+* [Golden Hammer :hammer:](https://github.com/valentinatobo/Anti-Patrones/tree/master/Desarrollo/Golden%20Hammer)
 
-* [Dead Code :volcano:]()
+* [Dead Code :volcano:](https://github.com/valentinatobo/Anti-Patrones/tree/master/Desarrollo/Dead%20Code)
 
-* [Spaghetti Code :spaghetti:]()
+* [Spaghetti Code :spaghetti:](https://github.com/valentinatobo/Anti-Patrones/tree/master/Desarrollo/Spaghetti%20Code)
 
-* [The Blob :zombie:]()
+* [The Blob :zombie:](https://github.com/valentinatobo/Anti-Patrones/tree/master/Desarrollo/The%20Blod)
 
 
 
